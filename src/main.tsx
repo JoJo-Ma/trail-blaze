@@ -13,7 +13,7 @@ import LandingPage from './Pages/LandingPage.tsx';
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/trail-blaze',
         element: <LandingPage />,
         errorElement: <ErrorPage />,
     },
