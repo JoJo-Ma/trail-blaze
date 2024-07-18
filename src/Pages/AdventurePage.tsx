@@ -124,7 +124,7 @@ export default function AdventurePage() {
                             {locations.map((location) => (
                                 <Marker
                                     className="cursor-pointer"
-                                    key={location.name}
+                                    key={location.title}
                                     coordinates={location.coordinates}
                                     onClick={() => {
                                         setSelectedLocation(location.id);

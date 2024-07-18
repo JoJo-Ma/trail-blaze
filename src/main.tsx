@@ -9,28 +9,34 @@ import Home from './Pages/HomePage.tsx';
 import Adventure from './Pages/AdventurePage.tsx';
 import ErrorPage from './Pages/ErrorPage.tsx';
 import './index.css';
+import LandingPage from './Pages/LandingPage.tsx';
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Root />,
+        element: <LandingPage />,
         errorElement: <ErrorPage />,
-        children: [
-            {
-                path: '/',
-                element: <Home />,
-            },
-            {
-                path: '/adventures',
-                element: <Adventure />,
-            },
-            {
-                path: 'coaching',
-                element: <div>Coaching</div>,
-            },
-
-        ],
     },
+    // {
+    //     path: '/',
+    //     element: <Root />,
+    //     errorElement: <ErrorPage />,
+    //     children: [
+    //         {
+    //             path: '/',
+    //             element: <Home />,
+    //         },
+    //         {
+    //             path: '/adventures',
+    //             element: <Adventure />,
+    //         },
+    //         {
+    //             path: 'coaching',
+    //             element: <div>Coaching</div>,
+    //         },
+
+    //     ],
+    // },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
