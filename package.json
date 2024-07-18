@@ -1,5 +1,6 @@
 {
   "name": "trail-blaze",
+  "homepage": "https://jojo-ma.github.io/trail-blaze",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
     "react": "^18.3.1",
