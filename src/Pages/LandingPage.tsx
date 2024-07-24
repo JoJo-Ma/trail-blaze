@@ -4,7 +4,7 @@ import {
     Bars3Icon, XMarkIcon, CalendarIcon, MapPinIcon,
 } from '@heroicons/react/24/outline';
 import {
-    FaMountain, FaChartBar, FaWhatsapp, FaCampground,
+    FaMountain, FaChartBar, FaWhatsapp, FaCampground, FaInstagram,
 } from 'react-icons/fa';
 import { PiMicrophoneStageFill } from 'react-icons/pi';
 import { MdEmail } from 'react-icons/md';
@@ -176,7 +176,7 @@ export default function LandingPage() {
                         Small group altitude training
                         </p>
                     </div>
-                    <div className="w-full lg:max-w-lg lg:flex-auto">
+                    <div className="lg:max-w-lg lg:flex-auto">
                         <img
                             alt=""
                             src="./colorado-flyer.JPG"
@@ -216,6 +216,21 @@ info@trailblaze.run
                             <p className="mt-4">
                                 <a href="https://wa.me/19295327415" className="text-sm font-semibold leading-6 text-orange-600">
                 Whatsapp
+                                    {' '}
+                                    <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex gap-x-6">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-600">
+                            <FaInstagram aria-hidden="true" className="h-6 w-6 text-white" />
+                        </div>
+                        <div>
+                            <h3 className="text-base font-semibold leading-7 text-gray-900">Trail Blaze</h3>
+                            <p className="mt-4">
+                                <a href="https://www.instagram.com/trail_blaze_llc?igsh=c2J5d2NmbmF2M3Uw&utm_source=qr" className="text-sm font-semibold leading-6 text-orange-600">
+                Instagram
                                     {' '}
                                     <span aria-hidden="true">&rarr;</span>
                                 </a>
