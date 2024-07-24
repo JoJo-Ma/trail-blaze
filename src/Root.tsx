@@ -4,9 +4,11 @@ import { Outlet } from 'react-router-dom';
 
 function Root() {
     return (
-        <div className="relative bg-gray-50">
-            <Navbar />
-            <Outlet />
+        <div className="relative">
+            {/* <Navbar /> */}
+            <main className="isolate">
+                <Outlet />
+            </main>
         </div>
     );
 }
