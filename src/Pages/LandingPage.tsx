@@ -179,7 +179,7 @@ export default function LandingPage() {
                     <div className="w-full lg:max-w-lg lg:flex-auto">
                         <img
                             alt=""
-                            src="./trail-blaze/colorado-flyer.JPG"
+                            src="./colorado-flyer.JPG"
                             className="mt-16 h-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
                         />
                     </div>

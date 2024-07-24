@@ -18,12 +18,12 @@ const router = createBrowserRouter([
     //     errorElement: <ErrorPage />,
     // },
     {
-        path: 'trail-blaze',
+        path: '/',
         element: <Root />,
         errorElement: <ErrorPage />,
         children: [
             {
-                path: '',
+                path: '/',
                 element: <LandingPage />,
             },
             {
